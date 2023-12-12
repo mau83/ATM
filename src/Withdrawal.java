@@ -117,7 +117,7 @@ public class Withdrawal extends Transaction
             case 3: // corresponding amount from amounts array
             case 4:
             case 5:
-               userChoice = amounts[ input ]; // save user's choice
+               userChoice = amounts[ input ]; // save user's choice   
                break;       
             case CANCELED: // the user chose to cancel
                userChoice = CANCELED; // save user's choice
